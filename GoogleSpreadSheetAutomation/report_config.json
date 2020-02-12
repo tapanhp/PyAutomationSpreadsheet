@@ -1,0 +1,51 @@
+{
+  "google_credentials_file": "",
+  "spread_sheet": "",
+  "reports": [
+    {
+      "report_type": "Appreciate",
+      "spend_col": "spend",
+      "campaign_col": "campaign_name",
+      "daily_margin_column_name": "override_margin",
+      "monthly_margin_column_name": "default_margin",
+      "csv_date_column": "date",
+      "csv_date_format": "%d/%m/%Y"
+    },
+    {
+      "report_type": "DBM (Web)",
+      "spend_col": "Revenue (Adv Currency),CM Post-Click Revenue",
+      "campaign_col": "Insertion Order",
+      "daily_margin_column_name": "override_margin",
+      "monthly_margin_column_name": "default_margin",
+      "csv_date_column": "Date",
+      "csv_date_format": "%Y/%m/%d"
+    },
+    {
+      "report_type": "DBM",
+      "spend_col": "Revenue (Adv Currency)",
+      "campaign_col": "Insertion Order",
+      "daily_margin_column_name": "override_margin",
+      "monthly_margin_column_name": "default_margin",
+      "csv_date_column": "Date",
+      "csv_date_format": "%Y/%m/%d"
+    },
+    {
+      "report_type": "The Trade Desk",
+      "spend_col": "Advertiser Cost (USD)",
+      "campaign_col": "Campaign",
+      "daily_margin_column_name": "override_margin",
+      "monthly_margin_column_name": "default_margin",
+      "csv_date_column": "Date",
+      "csv_date_format": "%d/%m/%Y"
+    },
+    {
+      "report_type": "Smadex",
+      "spend_col": "total_spend",
+      "campaign_col": "campaign",
+      "daily_margin_column_name": "override_margin",
+      "monthly_margin_column_name": "default_margin",
+      "csv_date_column": "date",
+      "csv_date_format": "%Y-%m-%d"
+    }
+  ]
+}
