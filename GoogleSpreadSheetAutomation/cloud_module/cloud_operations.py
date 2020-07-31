@@ -63,7 +63,7 @@ def get_spreadsheet(report_type):
     :param report_type:
     :return:
     """
-    dict_worksheet = dict()
+    dict_worksheet = {}
     try:
         sheet = connect_spreadsheet()
         worksheet_daily = sheet.worksheet(report_type + " - Daily")
